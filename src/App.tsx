@@ -26,7 +26,7 @@ function App() {
       refId: "Rx10112510",
     };
     //const headers = { "Content-Type": "application/json" };
-    axios.post(API_URL + "/api/payment/add", body).then((response) => {
+    axios.post(API_URL + "/api/payment/pay", body).then((response) => {
       console.log(response.data);
     });
 
